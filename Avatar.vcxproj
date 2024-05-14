@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Avatar.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Box2DHelper.h" />
+    <ClInclude Include="SFMLRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Avatar.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="SFMLRenderer.cpp" />
+    <ClCompile Include="Box2dEmptyApp.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{96C674D7-9E95-4F51-966C-1A0545981942}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
